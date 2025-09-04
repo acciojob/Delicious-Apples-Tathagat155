@@ -1,1 +1,94 @@
 /* your code here */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:green;
+}
+.product{
+	width:600px;
+	
+}
+.photo-container{
+	height:400px;
+	width:300px;
+	background-color:white;
+}
+.photo-main{
+	background-color:lightgreen;
+	
+}
+.photo-main img{
+	
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+.controls i{
+	margin:5px;
+	color:white;
+}
+.photo-album ul{
+	display:flex;
+	margin-left:59px;
+	margin-top:16px;
+}
+.photo-album ul li{
+	list-style:none;
+}
+.photo-album img{
+	width:40px;
+	height:30px;
+	border:1px solid gray;
+	margin:2px;
+}
+.product{
+	width:90%;
+	background-color:white;
+	display:flex;
+	height:80vh;
+	justify-content:space-around
+}
+.title span{
+	color:gray;
+	font-size:12px;
+}
+.price{
+	margin-top:18px;
+	font-size:38px;
+	color:red;
+}
+.variant{
+  margin-top:30px;
+}
+.variant h3{
+	color:gray;
+}
+.variant ul li:first-child{
+	border:1px solid gray;
+}
+
+.variant ul {
+  display:flex; 
+}
+.variant ul li{
+	list-style:none;
+}
+.description{
+	margin-top:15px
+}
+.description h3{
+	color:gray;
+}
+button{
+	margin-top:13px;
+	border:none;
+	border-radius:6px;
+	background-color:red;
+	color:white;
+	padding:12px;
+}
+
+	
